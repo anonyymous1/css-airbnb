@@ -3,37 +3,46 @@ body {
 }
 h3 {
   text-align: center;
-  color: rgb(61, 61, 61);
+  color: rgb(104, 104, 104);
   margin: 5px;
-  padding-bottom: 0px;
+  padding-top: 22px;
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 h6 {
   text-align: center;
-  color: rgb(61, 61, 61);
+  color: rgb(104, 104, 104);
   margin-top: 5px;
   margin-bottom: 0%;
   font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 8px;
 }
 
 .guidebook p {
   align-items: center;
   background-color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   border: 1px solid black;
   width: 250px;
   height: 40px;
   font-size: 12px;
-  font-weight: bolder; /* im not sure font bolder is doing anything */
+  margin-bottom: 20px;
+}
+
+.guidebook {
+  position: relative;
+  margin-left: 41%;
 }
 
 h1 {
   text-align: center;
   color: rgb(61, 61, 61);
   margin-top: 50px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -41,7 +50,7 @@ p {
   color: rgb(61, 61, 61);
   margin-bottom: 30px;
   margin-top: 0px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -67,8 +76,9 @@ h2 {
   position: relative;
   top: 50%;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
+  font-weight: 500;
 }
 
 img {
@@ -76,4 +86,5 @@ img {
   height: 200px;
   padding: 20px;
   padding-top: 10px;
+  padding-bottom: 30px;
 }
